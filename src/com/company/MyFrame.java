@@ -1,17 +1,21 @@
 package com.company;
 
 import javax.swing.*;
-
-import static com.sun.glass.ui.Cursor.setVisible;
-import javax.swing.JFrame;
+import java.awt.*;
 
 public class MyFrame extends JFrame{
 
         public MyFrame() {
             super("Aplication from Kacper Gawlik");
             setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-            setSize(500, 500);
-            setLocation(500,350);
+            setSize(1000, 700);
+            setLocation(500,200);
+            add(new JButton("Facebook "));
+            add(new JButton("Messenger "));
+            add(new JButton("Snapchat "));
+            setLayout(new FlowLayout());
+
+
             setVisible(true);
         }
 

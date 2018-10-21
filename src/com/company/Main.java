@@ -31,19 +31,21 @@ public class Main {
         }
 
 
-        // ZADANIE 2
+        // ZADANIE 4
 
         System.out.println("  ");
         System.out.println("  ");
         LinkedList m = new LinkedList();
         for (int i = 0; i < 10; i++) {
 
+//
             Random random = new Random();
 
-            m.add(random.nextInt(100));
+            m.add(random.nextInt(20 - 10 + 1 )+ 10);
 
             System.out.println(m);
         }
+
 
 
     }
